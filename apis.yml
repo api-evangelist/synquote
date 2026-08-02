@@ -1,8 +1,26 @@
 aid: synquote
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synquote.png
 name: Synquote
-description: 'Synquote is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Synquote is a decentralized crypto options trading platform that lets traders obtain
+  options quotes directly from market makers using a request-for-quote (RFQ) model. Founded in 2021
+  by former Google engineer Ahmed Attia and based in San Francisco, the platform offers European-style
+  options across ETH, BTC, AVAX, LINK and MATIC with liquidity spanning 500+ instruments. It pairs a
+  centralized-exchange-like experience (social/Google logins, two-click trading, zero-gas trading,
+  maker rebates and low taker fees) with DeFi self-custody, and supports undercollateralized margin
+  trading for liquidity providers to improve capital efficiency. Backed by Initialized Capital and
+  Polygon, Synquote raised $2.8M and launched publicly in June 2023 after a beta exceeding $25M in
+  notional volume. Added to the API Evangelist network as a crypto/DeFi portfolio profile.'
 url: https://raw.githubusercontent.com/api-evangelist/synquote/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- DeFi
+- Options
+- Trading
+- Derivatives
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://synquote.com/
+- type: SignUp
+  url: https://app.synquote.com/
+- type: Blog
+  url: https://blog.synquote.com/
+- type: GitHubOrganization
+  url: https://github.com/synquote
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
